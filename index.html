@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h2>Donación Sangre</h2>
+    <form action="index.html" method="post">
+        <ul>
+            <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre_usuario">
+            </li>
+            <li>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="nombre_usuario"
+                required="" placeholder="Apellidos">
+            </li>
+            <li>
+                <label for="fechair">Seleccione día para donar:</label>
+                <input type="date" id="fechair" name="fechair_usuario">
+            </li>
+            <li>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" id="email" name="correo_usuario"
+                required="" placeholder="Correo Electronico">
+            </li>
+            <li>
+                <label for="contra">Contraseña:</label>
+                <input type="password" id="contra" name="contra_usuario"
+                required="" placeholder="Contraseña">
+            </li>
+            <li>
+                <label for="direccion">Dirección:</label>
+                <textarea name="direccion" name="direccion_usuario"></textarea
+                    required="" placeholder="Direccion">
+            </li>
+           <li class="buttom"> 
+                <button type="submit">Registrarme🌟</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
